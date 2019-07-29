@@ -39,6 +39,7 @@ export default class App extends Component {
         console.log(response);
       })
       .catch(function (error) {
+        // handle more error
         // handle error
         console.log(error);
       })
@@ -76,6 +77,8 @@ export default class App extends Component {
               showLineNumbers: true,
               tabSize: 4,
             }} />
+
+
 
           <button type="button" onClick={this.onClick} >Submit code</button>
         </div>
